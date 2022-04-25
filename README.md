@@ -1,2 +1,5 @@
-# Program-to-print-N-to-1
-program to print N to 1 natural numbers in {ython
+n = int(input())  # input any number
+count=n
+while(count>=1):
+    print(count,end=" ")
+    count=count-1
